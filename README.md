@@ -12,22 +12,23 @@ I build macOS apps, and tools that let Claude Code run in more places.
 
 All three run the `claude` CLI you already have instead of reimplementing the agent, and none of them write your keys into `~/.claude/settings.json`.
 
-## macOS apps
+## macOS apps on the App Store
 
 <table>
   <tr>
-    <td width="80" align="center"><a href="https://github.com/yusuke-114/LongScreenShot"><img src="https://raw.githubusercontent.com/yusuke-114/LongScreenShot/main/docs/assets/app-icon.png" width="64" alt="Long Screenshot icon"></a></td>
-    <td><a href="https://github.com/yusuke-114/LongScreenShot"><b>Long Screenshot</b></a><br>Scrolling screenshots for macOS. Select an area, scroll, and get one seamless image.</td>
+    <td width="80" align="center"><a href="https://apps.apple.com/us/app/long-screenshot-ultra/id6804573865"><img src="https://raw.githubusercontent.com/yusuke-114/LongScreenShot/main/docs/assets/app-icon.png" width="64" alt="Long Screenshot icon"></a></td>
+    <td><a href="https://apps.apple.com/us/app/long-screenshot-ultra/id6804573865"><b>Long Screenshot</b></a><br>Scrolling screenshots for macOS. Select an area, scroll, and get one seamless image.</td>
   </tr>
   <tr>
-    <td width="80" align="center"><a href="https://github.com/yusuke-114/KeyflipApp"><img src="https://raw.githubusercontent.com/yusuke-114/KeyflipApp/main/docs/assets/app-icon.png" width="64" alt="Keyflip icon"></a></td>
-    <td><a href="https://github.com/yusuke-114/KeyflipApp"><b>Keyflip</b></a><br>Switches your keyboard input source automatically whenever you move to another app.</td>
+    <td width="80" align="center"><a href="https://apps.apple.com/us/app/keyflip/id6818039827"><img src="https://raw.githubusercontent.com/yusuke-114/KeyflipApp/main/docs/assets/app-icon.png" width="64" alt="Keyflip icon"></a></td>
+    <td><a href="https://apps.apple.com/us/app/keyflip/id6818039827"><b>Keyflip</b></a><br>Switches your keyboard input source automatically whenever you move to another app.</td>
   </tr>
 </table>
 
-## Install with Homebrew
+## Install Steward with Homebrew
+
+Steward runs outside the macOS sandbox, so it can't ship on the App Store.
 
 ```bash
 brew install --cask yusuke-114/tap/steward
-brew install --cask yusuke-114/tap/longscreenshot
 ```
