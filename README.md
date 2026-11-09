@@ -6,13 +6,7 @@ I build macOS apps, and tools that let Claude Code run in more places.
 
 ## Claude Code tools
 
-<table>
-  <tr>
-    <td width="80" align="center"><a href="https://github.com/yusuke-114/Steward"><img src="https://raw.githubusercontent.com/yusuke-114/Steward/main/docs/assets/steward-icon.png" width="64" alt="Steward icon"></a></td>
-    <td><a href="https://github.com/yusuke-114/Steward"><b>Steward</b></a><br>Drive Claude Code on your Mac from Telegram. Start sessions, switch projects and approve tool calls from your phone. Works with an API key, Bedrock, Vertex AI or a company gateway.</td>
-  </tr>
-</table>
-
+- **[Steward](https://github.com/yusuke-114/Steward)**: drive Claude Code on your Mac from Telegram. Start sessions, switch projects and approve tool calls from your phone. Works with an API key, Bedrock, Vertex AI or a company gateway.
 - **[claude-xcode-agent](https://github.com/yusuke-114/claude-xcode-agent)**: Claude Code as the coding agent in Xcode 27, with your own API key or gateway. A small wrapper between Xcode's ACP adapter and `claude` that supplies credentials and keeps your global settings out of Xcode.
 - **[cchat](https://github.com/yusuke-114/cchat)**: a lightweight terminal chat built on `claude -p`. Each turn is its own process, chained with `--resume`, so there's no long-running session to hang.
 
