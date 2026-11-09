@@ -25,10 +25,9 @@ All three run the `claude` CLI you already have instead of reimplementing the ag
   </tr>
 </table>
 
-## Install Steward with Homebrew
-
-Steward runs outside the macOS sandbox, so it can't ship on the App Store.
+## Install with Homebrew
 
 ```bash
 brew install --cask yusuke-114/tap/steward
+brew install --cask yusuke-114/tap/longscreenshot
 ```
